@@ -1,18 +1,7 @@
-# Player Score Calculator
-
-# Input Collection
 player_name = input("Enter player name: ")
-
-# Numeric Input
 games_played = int(input("Enter number of games played: "))
-
-# Score Entry
 total_score = int(input("Enter total score achieved: "))
-
-# Average Calculation
 average_score = total_score / games_played
-
-# Output Display
 print("\n--- Player Score Summary ---")
 print(f"Player: {player_name}")
 print(f"Games Played: {games_played}")
